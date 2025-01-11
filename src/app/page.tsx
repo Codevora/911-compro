@@ -2,12 +2,12 @@ import Link from "next/link"
 
 export default function Home() {
  return (
-  <>
-   <h1>TESTING</h1>
-   <br />
-   <Link href="/posts">POSTING PAGE</Link>
-   <br />
-   <Link href="/albums">ALBUMS PAGE</Link>
-  </>
+  <section className="bg-white h-screen">
+   <div className="text-black">
+    <h1 className="">TESTING</h1>
+    <br />
+    
+   </div>
+  </section>
  );
 }

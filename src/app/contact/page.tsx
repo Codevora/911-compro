@@ -9,8 +9,8 @@ function ContactForm() {
   return <p>Thanks for joining!</p>;
  }
  return (
-  <div className="bg-blue-900 h-screen py-24 px-24">
-   <div className=" bg-slate-400 rounded-lg h-auto max-w-sm px-3 py-3">
+  <div className="bg-white h-screen py-24 px-24">
+   <div className=" bg-gradient-to-br from-zinc-900 to-zinc-600 rounded-lg h-auto max-w-sm px-3 py-3 text-white">
     <form onSubmit={handleSubmit}>
      <label
       htmlFor="Name"
